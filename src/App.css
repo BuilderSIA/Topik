@@ -1,0 +1,314 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html{
+  scroll-behavior: smooth;
+}
+nav{
+  background: url(/Group\ 78.png) 90% 0 no-repeat;
+  background-size: 5%;
+}
+.calling{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  
+}
+.calling-items{
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+}
+.hero{
+  max-width: 1920px;
+  height: 750px;
+  margin: 80px auto 0 auto;
+  background: url(/mainimg.png) 140% 0px no-repeat,url(/Group\ 76.png) 100% 0 no-repeat,url(/Group\ 79.png) 80% 10% no-repeat;
+  background-size: 70%,6%,4%;
+  padding: 40px;
+}
+.logo-extra{
+  width: 13%;     
+  min-width: 200px;
+  margin-top: 40px;
+}
+.about-course{
+  width: 1000px;
+  height: 50px;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+.hero-line{
+  height: 2px;
+  border-radius: 15px;
+  margin: 15px 20px 0 0;
+}
+.hero-extra-text{
+  font-size: 21px;
+  font-family: "Montserrat", sans-serif;
+}
+.hero-text{
+  width: 1000px;
+}
+.hero-main-text{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 71px;
+}   
+.hero-list{
+  display: flex;
+  margin-top: 15px;
+  gap: 70px;
+}
+.hero-list-item{
+  display: flex;
+  width: 25%;
+  gap: 30px;
+}
+.hero-list-item2{
+  display: flex;
+  width: 30%;
+  gap: 30px;
+}
+.hero-list-text{
+  font-size: 25px;
+}
+.leaf{
+  width: 80px;
+  height: 90px;
+}
+.herobtn{
+  width: 335px;
+  height: 70px;
+  background: rgb(95,172,169);
+  background: linear-gradient(90deg, rgba(95,172,169,1) 0%, rgba(115,192,189,1) 51%, rgba(95,172,169,1) 100%);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #FFF;
+  border-radius: 30px;
+  border: none;
+}
+.hero-underbtn-text{
+  margin-left: 20px;
+  margin-top: 10px;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.categories{
+  max-width: 1920px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  background: url(/Group\ 91.png) 5% 50% no-repeat, url(/Group\ 92.png) 95% 50% no-repeat;
+  background-size: 7%;
+}
+.cat-top-text h2{
+  font-size: 45px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.cat-list{
+  width: 70%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 70px;
+}
+.cat-img{
+  width: 150px;
+  border-radius: 50%;
+  background: #C5F2CB;
+}
+.cat-list-item{
+  text-align: center;
+}
+.cat-item-text{
+  font-size: 20px;
+  font-weight: 400;
+}
+.colored{
+  color: #4B9895;
+}
+.catbtn{
+  width: 335px;
+  height: 70px;
+  background: rgb(95,172,169);
+  background: linear-gradient(90deg, rgba(95,172,169,1) 0%, rgba(115,192,189,1) 51%, rgba(95,172,169,1) 100%);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #FFF;
+  border-radius: 30px;
+  border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.results{
+  max-width: 1920px;
+  background: url(/Group\ 93.png) 70% 7% no-repeat, url(/Group\ 94.png) 20% 50% no-repeat;
+  background-size: 10%;
+  margin: 100px auto 0 auto;
+}
+.results-cont{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background:none;
+}
+.results-text h2{
+  font-size: 45px;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.marque-img{
+  margin-left: 50px;
+}
+.resultsBtn{
+  width: 335px;
+  height: 70px;
+  margin-top: 50px;
+  background: rgb(95,172,169);
+  background: linear-gradient(90deg, rgba(95,172,169,1) 0%, rgba(115,192,189,1) 51%, rgba(95,172,169,1) 100%);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #FFF;
+  border-radius: 30px;
+  border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.grants{
+  max-width: 1920px;
+  margin: 0 auto;
+  background: url(/Group\ 93.png) 80% 25% no-repeat, url(/Group\ 94.png) 5% 50% no-repeat;
+  background-size: 7%,10%;
+}
+.grants-text{
+  width: 850px;
+  margin: 150px auto 50px auto;
+}
+.grants-text h2{
+  font-size: 45px;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.gks-cont{
+  width: 70%;
+  margin: 0 auto;
+  background: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
+.gks-img{
+  width: 1300px;
+  background: none;
+}
+.gks-img img{
+  width: 100%;
+  background: none;
+}
+.gks-info{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.video{
+  width: 70%;
+  margin: 50px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
