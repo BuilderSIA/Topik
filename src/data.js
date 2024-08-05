@@ -9,6 +9,7 @@ import catimg6 from '/key-dynamic-color.png';
 import topik from '/Group 39.png';
 import leaves from '/decoration.svg';
 import gks from '/Group 102.png';
-import video from '/video.png'
+import video from '/video.png';
+import ellips from '/Ellipse 71.png';
 
-export {video,gks,leaves,topik,heroline,leaf,catimg1,catimg2,catimg3,catimg4,catimg5,catimg6};
+export {ellips,video,gks,leaves,topik,heroline,leaf,catimg1,catimg2,catimg3,catimg4,catimg5,catimg6};

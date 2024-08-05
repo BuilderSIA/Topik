@@ -9,6 +9,7 @@ import Categoriesfor from "./pages/Categoriesfor";
 import Results from "./pages/Results";
 import Grants from "./pages/Grants";
 import { useTranslation } from "react-i18next";
+import Ourhelp from "./pages/Ourhelp";
 
 function App() {
   const language = localStorage.getItem("i18nextLng");
@@ -30,6 +31,7 @@ function App() {
       <Categoriesfor t={t} />
       <Results t={t} />
       <Grants t={t} />
+      <Ourhelp t={t} />
     </>
   );
 }

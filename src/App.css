@@ -312,3 +312,88 @@ nav{
 
 
 
+.ourhelp{
+  max-width: 1920px;
+  margin: 100px auto;
+  position: relative;
+  display: flex;
+  justify-content: end;
+}
+.ourhelp-cont{
+  width: 95%;
+}
+.ourhelp-text{
+  width: 60%;
+  margin: 0 auto;
+}
+.students-text{
+  font-size: 45px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.students-marque-cont{
+  width: 100%;
+  display: flex;
+}
+.m-cont-left{
+  width: 50%;
+}
+.m-cont-right{
+  width: 50%;
+}
+.ellips{
+  position: absolute;
+  top: 12%;
+  width: 150px;
+  height: 600px;
+  right: 44%;
+  
+  z-index: 5;
+}
+.help-visa{
+  width: 50%;
+  font-size: 21px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 10px;
+}
+.help-visa-colored{
+  color: #4B9895;
+}
+.help-extra{
+  width: 30%;
+  font-size: 13px;
+  margin-bottom: 0;
+  margin-left: 10px;
+}
+.studentsbtn{
+  width: 335px;
+  height: 70px;
+  margin-top: 5px;
+  background: rgb(95,172,169);
+  background: linear-gradient(90deg, rgba(95,172,169,1) 0%, rgba(115,192,189,1) 51%, rgba(95,172,169,1) 100%);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #FFF;
+  border-radius: 30px;
+  border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

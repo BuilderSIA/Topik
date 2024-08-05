@@ -38,6 +38,7 @@ const Grants = ({t}) => {
             </div>
             <div className="video-cont">
               <iframe src=""></iframe>
+              
               <img src={video} alt="" className="video"/>
             </div>
         </div>

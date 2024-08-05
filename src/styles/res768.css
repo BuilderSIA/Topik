@@ -123,4 +123,19 @@
     .video{
         width: 100%;
     }
+
+
+
+
+
+
+    .students-text{
+        font-size: 35px;
+    }
+    .ourhelp-cont{
+        width: 100%;
+    }
+    .studetsbtn{
+        margin: 0 auto;
+    }
 }
