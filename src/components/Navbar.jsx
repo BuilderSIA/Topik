@@ -66,7 +66,7 @@ const Navbar = ({handleChange,t,i18n}) => {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" href="#services" onClick={handleNavItemClick}>
+                <a className="nav-link active" href="#courses" onClick={handleNavItemClick}>
                   {t("kurslar")}
                 </a>
               </li>

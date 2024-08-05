@@ -10,6 +10,7 @@ import Results from "./pages/Results";
 import Grants from "./pages/Grants";
 import { useTranslation } from "react-i18next";
 import Ourhelp from "./pages/Ourhelp";
+import Courses from "./pages/Courses";
 
 function App() {
   const language = localStorage.getItem("i18nextLng");
@@ -32,6 +33,7 @@ function App() {
       <Results t={t} />
       <Grants t={t} />
       <Ourhelp t={t} />
+      <Courses t={t} />
     </>
   );
 }
