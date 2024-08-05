@@ -516,3 +516,283 @@ nav{
   color:#4B9895;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.whyus{
+  max-width: 1920px;
+  padding-top: 200px;
+  margin: 0 auto;
+}
+.whyus-text{
+  width: 100%;
+}
+.whyus-text h2{
+  font-size: 45px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.whyus-cont{
+  width: 70%;
+  margin: 0 auto;
+}
+.whyus-list{
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  align-items: center;
+  row-gap: 100px;
+  column-gap: 50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.whyus-list-item{
+  width: 400px;
+  height: 300px;
+}
+.w-list-item-cont{
+  width: 400px;
+  height: 200px;
+  position: relative;
+  border-radius: 25px;
+  box-shadow: 0 8px 24px 0 #e9f5ff;
+  padding: 20px;
+}
+.w-list-item-cont h2{
+  margin-top: 50px;
+  font-size: 25px;
+  font-weight: 400;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.w-list-item-cont p{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.numberofitem{
+  width: 83px;
+  height: 83px;
+  position: absolute;
+  border: 1px solid;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  font-weight: 900;
+  color: #FFF;
+  background: #61aba7;
+  left: 20px;
+  top: -65px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:root {
+  --primary-text: #4f8f70;
+  --secondary-text: #e9fff3;
+  --white-text-white: #ffffff;
+  --black-text-black: #000000;
+}
+/* custom font */
+/* @font-face {
+  font-family: "Avenir";
+  src: url("../assets/font/AvenirLight.woff2") format("woff2"),
+    url("../assets/font/AvenirLight.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.accordion-button:not(.collapsed) {
+  /* background-color: #c5e5d8;*/
+  background-color: var(--secondary-text);
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: none;
+  transform: none;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.accordion-button:before {
+  content: "";
+  position: absolute;
+  /*   right: 0.75rem; */
+  right: 0.75rem;
+  top: 1.25rem;
+  height: 2px;
+  width: 1rem;
+  background-color: var(--primary-text);
+}
+.accordion-button.collapsed:after {
+  content: "";
+  position: absolute;
+  /*   right: 1.1875rem; */
+  right: 1.1875rem;
+  top: 0.8125rem;
+  height: 1.0625rem;
+  width: 0.125rem;
+  border-style: none;
+  background-color: var(--primary-text);
+}
+
+.faq-section .accordion-button h5 {
+  /*   color: #7dbc9e; */
+  color: var(--primary-text);
+  margin-right: 13px;
+}
+.accordion-body {
+  background-color: var(--secondary-text);
+}
+/* button:focus:not(:focus-visible) {
+    outline: 0;
+} */
+
+@media screen and (min-width: 768px) {
+  /*   .faq-section .accordion {
+    width: 50%;
+    margin: 0 auto;
+  } */
+
+  .accordion-button:before {
+    right: 0.75rem;
+  }
+
+  .accordion-button.collapsed:after {
+    right: 1.1875rem;
+  }
+
+  .faq-section .accordion-button h5 {
+    margin-right: 0px;
+  }
+}
+
+

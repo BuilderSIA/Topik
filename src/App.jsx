@@ -11,6 +11,8 @@ import Grants from "./pages/Grants";
 import { useTranslation } from "react-i18next";
 import Ourhelp from "./pages/Ourhelp";
 import Courses from "./pages/Courses";
+import WhyUs from "./pages/WhyUs";
+import FAQ from "./pages/FAQ";
 
 function App() {
   const language = localStorage.getItem("i18nextLng");
@@ -34,6 +36,8 @@ function App() {
       <Grants t={t} />
       <Ourhelp t={t} />
       <Courses t={t} />
+      <WhyUs t={t} />
+      {/* <FAQ t={t} /> */}
     </>
   );
 }
