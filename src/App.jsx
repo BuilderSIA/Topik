@@ -13,6 +13,8 @@ import Ourhelp from "./pages/Ourhelp";
 import Courses from "./pages/Courses";
 import WhyUs from "./pages/WhyUs";
 import FAQ from "./pages/FAQ";
+import Contactus from "./pages/Contactus";
+import Footer from "./pages/Footer";
 
 function App() {
   const language = localStorage.getItem("i18nextLng");
@@ -37,7 +39,9 @@ function App() {
       <Ourhelp t={t} />
       <Courses t={t} />
       <WhyUs t={t} />
-      {/* <FAQ t={t} /> */}
+      <FAQ t={t} />
+      <Contactus t={t} />
+      <Footer t={t} />
     </>
   );
 }
