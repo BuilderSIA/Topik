@@ -15,10 +15,14 @@ import WhyUs from "./pages/WhyUs";
 import FAQ from "./pages/FAQ";
 import Contactus from "./pages/Contactus";
 import Footer from "./pages/Footer";
+import axios from "axios";
 
 function App() {
   const language = localStorage.getItem("i18nextLng");
   const { t, i18n } = useTranslation();
+  
+
+  
   const handleChange = (event) => {
     const selectedLang = event.target.value;
     i18n.changeLanguage(selectedLang);
@@ -30,6 +34,7 @@ function App() {
         t={t}
         i18n={i18n}
         language={language}
+        
       />
       <Home />
       <Hero t={t} />
