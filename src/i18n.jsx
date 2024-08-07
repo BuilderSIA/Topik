@@ -6,7 +6,7 @@ import uztranslation from '../public/locales/uzb.json'
 import rutranslation from '../public/locales/rus.json'
 
 
-const lang = localStorage.getItem("i18nextLng")||"uz"
+const lang = localStorage.getItem("i18nextLng") || "uz";
 
 
 
