@@ -15,7 +15,6 @@ import WhyUs from "./pages/WhyUs";
 import FAQ from "./pages/FAQ";
 import Contactus from "./pages/Contactus";
 import Footer from "./pages/Footer";
-import axios from "axios";
 
 function App() {
   const language = localStorage.getItem("i18nextLng");

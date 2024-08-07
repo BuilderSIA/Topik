@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 
 import axios from "axios";
-import { ToastContainer, toast } from 'react-toastify';
+// import { ToastContainer, toast } from 'react-toastify';
   import 'react-toastify/dist/ReactToastify.css';
 
 
@@ -17,14 +17,13 @@ const Contactus = ({t}) => {
         // Assuming you have form inputs with ids 'name' and 'number'
         const name = document.getElementById('name').value;
         const number = document.getElementById('number').value;
-        const notify = () => toast.success(`Send to ${name}`,{position:"top-right"});
-        const error = ()=> toast.error(`error`,{position:"top-right"})
+        // const notify = () => toast.success(`Send to ${name}`,{position:"top-right"});
 
         axios.post(url, {
           chat_id: chatID,
           text: `Name: ${name}, Number: ${number}`
         })
-        .then(() => ()=>notify())
+        .then(() => ()=>alert(`${t("send"),name}`))
         .catch((error) => {
           console.log("Error", error);
         });
