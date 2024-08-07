@@ -6,6 +6,7 @@ import logo from '../../public/logo (2).png'
 
 const Navbar = ({handleChange,t,i18n}) => {
     const [shadow, setShadow] = useState(false);
+    const language = localStorage.getItem("i18nextLng")
 
   const handleScroll = () => {
     if (window.scrollY > 50) {
@@ -76,6 +77,14 @@ const Navbar = ({handleChange,t,i18n}) => {
                 </a>
               </li>
             </ul>
+            <select onChange={handleChange} value={language} className="lang">
+              <option value="uz">
+                Uz
+              </option>
+              <option value="ru">
+                Ru
+              </option>
+            </select>
             <div className="calling">
               <a href="tel:+998990972472" className="calling-items">
               +998 (33) 306 0098

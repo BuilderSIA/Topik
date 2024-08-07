@@ -15,13 +15,13 @@ const FAQ = ({t}) => {
                 <h2 className="accordion-header">
                   <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#coll1" aria-expanded="true" aria-controls="coll1">
                     <h5>
-                      {t("faqtext")}
+                      {t("faqtext1")}
                     </h5>
                   </button>
                 </h2>
                 <div id="coll1" className="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                   <div className="accordion-body">
-                    
+                      {t("faqans1")}
                   </div>
                 </div>
               </div>
