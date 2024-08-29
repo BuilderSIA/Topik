@@ -2,7 +2,7 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable no-unused-vars */
 import { useEffect, useState } from "react";
-import logo from '../../public/logo (2).png'
+import logo from '../../public/logo1.svg'
 
 const Navbar = ({handleChange,t,i18n}) => {
     const [shadow, setShadow] = useState(false);

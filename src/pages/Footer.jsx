@@ -9,7 +9,7 @@ const Footer = ({t}) => {
         <div className="footer-cont">
             <div className="footer-logo">
                 <a href="#home">
-                <img src={"/logo horizontal.svg"} alt="" />
+                <img src={"/logo1.svg"} alt="" />
                 </a>
             </div>
             <div className="footer-list">
